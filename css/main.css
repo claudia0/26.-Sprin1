@@ -1,0 +1,90 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+body{ background-color: #1A0D23 !important; }
+header, footer{
+	background-color: #000 !important;
+}
+.nav{background-color: black !important;}
+
+.logo{
+	
+	width: 60%;
+	float: left; 
+}
+
+.fondo{
+	background-image: url("../image/header-image.jpg");
+	background-size: cover;
+	height: 400px;
+	margin-top: 25px;
+	padding: 3%;
+
+}
+.cdo-blk{
+	width: 40%;
+	height: 5%;
+	margin-left: 30%;
+	margin-top: 12% !important;
+	padding: 3% !important;
+}/*es la caja del header*/
+
+p{
+	color: white;
+	font-family: Arial !important;
+}
+
+.fdo-negro{
+	background-color: black;
+	color: #F3C076;
+	padding:10%;
+	font-family: 'Courgette', cursive;
+	margin-bottom: 3%;
+}
+@media (min-width: 320px) {
+
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
+  } 
+
+}
+
+/* CSS pantalla 768px o > */
+@media (min-width: 768px) {
+
+  .mi-iframe {
+    width: 500px;
+    height: 350px;
+  } 
+
+}
+
+.btm-mg{
+	margin-bottom: 3%;
+	margin-top:3%;
+}
+.icon-bar{
+	background-color: #B0AFB1 !important;
+	border-radius: 50%;
+	color: white;
+	margin:2%;
+}
+
+footer{
+	padding-top: 5%;
+
+}
+input{
+	width: 100%;
+	background-color: grey;
+	border: none;
+}

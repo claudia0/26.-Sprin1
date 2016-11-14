@@ -85,6 +85,12 @@ footer{
 }
 input{
 	width: 100%;
-	background-color: grey;
-	border: none;
+	height: 35px;
+	border-radius: 20px;
+	border-color: black;
+	
+}
+.orange{
+	background-color: orange;
+	
 }

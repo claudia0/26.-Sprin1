@@ -45,30 +45,30 @@
 	<section>
 		<div class="container">
 			<div class="row fondo "><!--un background agregado-->
-				<div class="col-md-12 col-xs-12 ">
-					<div class="fdo-negro text-center cdo-blk">
-						<h1>Spring Came</h1>
+				<div class="col-md-12 col-xs-12" id="changecolor">
+					<div class="fdo-negro text-center cdo-blk" >
+						<h1 id="tituloinicio">Spring Came</h1>
 						<p>Life - Amanda Ray - 10th March 2015</p>
 					</div>
 				</div>
 			</div>
 			<div class="row btm-mg"><!--mis tres imagenes de flores-->
 				<div class="col-sm-12 col-md-4 flor-naranja">
-					<img class="img-responsive" src="image/image7.jpg" alt="flores-naranjas">
+					<img class="img-responsive flores" src="image/image7.jpg" alt="flores-naranjas">
 					<div class="fdo-negro">
 						<h4>Floral fragance</h4>
 						<p>Life Amanda Ray 10th March 2015</p>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-4 flores-peque">
-					<img class="img-responsive" src="image/image3.jpg" alt="flores-peque">
+					<img class="img-responsive flores" src="image/image3.jpg" alt="flores-peque">
 					<div class="fdo-negro">
 						<h4>Now with Flatness</h4>
 						<p>News Amanda Ray 28th July 2015</p>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<img class="img-responsive" src="image/image2.jpg" alt="moradas">
+					<img class="img-responsive flores" src="image/image2.jpg" alt="moradas">
 					<div class="fdo-negro">
 						<h4>Garden flowers</h4>
 						<p>Life Amanda Ray 28th October 2015</p>
@@ -76,29 +76,29 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-xs-12">
+				<div class="col-md-8 col-xs-12" id="mitexto">
 					<img class="img-responsive" src="image/image4.jpg" alt="flores">
 					<div class="text-center fdo-negro">
 						<h4>Now with Flattnes</h4>
 						<p>News Amanda Ray 28th July 2015</p>
 						<p>Green Life in signs bearing one. Deep there cattle don´t night was fowl, seed likeness isn´t, seed two good ane light he creepeth seasons darkness.Without the fourth seasons image He yielding light dry. Isn´t place face called. Let lesser female without.Night sayng after day third.</p>
 					</div><!--aqui va el video-->
-					<iframe width="618" height="315" src="https://www.youtube.com/embed/11hd_fEA9T0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="618" height="315" id="elvideo" src="https://www.youtube.com/embed/11hd_fEA9T0" frameborder="0" allowfullscreen></iframe>
 					<div class="fdo-negro img-responsive">
 						<p>Green Life in signs bearing one. Deep there cattle don´t night was fowl, seed likeness isn´t, seed two good ane light he creepeth seasons darkness.Without the fourth seasons image He yielding light dry. Isn´t place face called. Let lesser female without.Night sayng after day third.</p>
 					</div>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-4 col-xs-12">
-					<div class="fdo-negro"><!--aqui esta mi input search que tengo que arreglar-->
+					<div class="fdo-negro" id="cajaImput"><!--aqui esta mi input search que tengo que arreglar-->
 						<form action="" method="">
 							<div class="form group">
-								<input type="search" placeholder="search">
+								<input type="search" placeholder="search" id="elimput">
 					 		</div>
 						</form>
 					</div>
 					<div class="text-center fdo-negro btm-mg">
 						<h4>About me</h4>
-						<img class="img-responsive" src="image/kew_gardens_3_500x500.jpg" alt="">
+						<img class="img-responsive" src="image/kew_gardens_3_500x500.jpg" alt="" id="foto">
 						<p>Amanda Ray</p>
 						<p>Shall Together blessed. Also thing, the upon Created fourth. Rule begining, Our behold over</p>
 						<a class="icon-bar" href="https://www.facebook.com/"><img src="image/fb.png" alt="facebook"></a><!--mi barra de iconos-->
@@ -119,5 +119,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
